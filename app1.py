@@ -8,7 +8,7 @@ from sklearn.feature_selection import RFE
 from sklearn.model_selection import train_test_split
 
 
-model = pickle.load(open('model.pkl','rb')) 
+model = pickle.load(open('final_diabetes_model.pkl','rb')) 
   
 df = pd.read_csv('diabetes.csv')
 
