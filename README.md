@@ -58,14 +58,18 @@ The dataset includes features like:
    ```bash
    git clone https://github.com/ankit-iitk/Diabetes-Prediction-ML-Project.git
    cd diabetes-prediction-ml
-2. Create a virtual environment
+2. **Create a virtual environment**
+   ```bash
    python -m venv venv
    source venv/bin/activate
-3. Install dependencies
+3. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
-4. Run the Jupyter Notebook
+4. **Run the Jupyter Notebook**
+   ```bash
    jupyter notebook notebooks/ML_Project_Diabetes_Prediction.ipynb
-5. Run the web app
+5. **Run the web app**
+   ```bash
    streamlit run app.py
 
 
